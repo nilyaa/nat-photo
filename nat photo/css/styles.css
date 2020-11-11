@@ -1,0 +1,160 @@
+body {
+    font-family: sans-serif, serif, monospace;
+    margin: 0px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#landing {
+    background-color: antiquewhite;
+}
+
+#landingText {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+}
+
+#landingText h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#landingText h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ff6ec7;
+}
+
+#landingImage {
+    background-image: url("../img/asap-pang-OizgJ82f5-4-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.btn1 {
+    border: 1px #ccc solid;
+    padding: 0.5rem;
+    margin-top: 2rem 0 0;
+    border-radius: 50px;
+    color: greenyellow;
+    background: blue;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn1:hover {
+    background: tomato;
+    color: black;
+}
+
+.header {
+    background-color: grey;
+    color: wheat;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.caption {
+    text-align: center;
+    padding;
+    0.5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: brown;
+
+}
+
+figure {
+    text-align: center;
+    margin: 0px;
+}
+
+#contact {
+    margin: auto;
+}
+
+.myForm {
+    padding: 20px;
+    text-align: center;
+}
+
+.myForm label {
+    display: block;
+}
+
+
+.myForm input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+textarea {
+    padding: 5px;
+    width: 90%;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border: 3px solid darkblue;
+    border-radius: 50px;
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
